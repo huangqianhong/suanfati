@@ -1,6 +1,6 @@
-//Í³¼Æ×Ö·û´®µÄ´óÐ´×ÖÄ¸£¬Ð¡Ð´×ÖÄ¸£¬Êý×Ö³öÏÖµÄ¸öÊý
+//ç»Ÿè®¡å­—ç¬¦ä¸²çš„å¤§å†™å­—æ¯ï¼Œå°å†™å­—æ¯ï¼Œæ•°å­—å‡ºçŽ°çš„ä¸ªæ•°
 #include<stdio.h>
-void f()         //bchar´ú±í´óÐ´×ÖÄ¸,bcahr´ú±íÐ¡Ð´×ÖÄ¸µÄ¸öÊý
+void f()         //bcharä»£è¡¨å¤§å†™å­—æ¯,bcahrä»£è¡¨å°å†™å­—æ¯çš„ä¸ªæ•°
 {
 	int c, digita,bchar,schar;
 	digita=0;
@@ -8,7 +8,7 @@ void f()         //bchar´ú±í´óÐ´×ÖÄ¸,bcahr´ú±íÐ¡Ð´×ÖÄ¸µÄ¸öÊý
 	schar=0;
 
 	
-	while((c=getchar())!='\n')                  //½ÓÊÜÒ»¸ö×Ö·û£¬Ö±µ½'\n'Í³¼Æ½áÊø
+	while((c=getchar())!='\n')                  //æŽ¥å—ä¸€ä¸ªå­—ç¬¦ï¼Œç›´åˆ°'\n'ç»Ÿè®¡ç»“æŸ
 	{
 		if(c>='0'&&c<='9')
 		{
@@ -25,10 +25,10 @@ void f()         //bchar´ú±í´óÐ´×ÖÄ¸,bcahr´ú±íÐ¡Ð´×ÖÄ¸µÄ¸öÊý
 		
 	}
 	
-	printf("´óÐ´×ÖÄ¸¸öÊýÎª:%d\n",bchar);
-	printf("Ð¡Ð´×ÖÄ¸¸öÊýÎª:%d\n",schar);
+	printf("å¤§å†™å­—æ¯:%dä¸ª\n",bchar);
+	printf("å°å†™å­—æ¯:%dä¸ª\n",schar);
 	
-	printf("Êý×Ö¸öÊýÎª:%d\n",digita);
+	printf("æ•°å­—:%dä¸ª\n",digita);
 	
 }
 void main()
